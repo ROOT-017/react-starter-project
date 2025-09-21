@@ -1,0 +1,28 @@
+.hero {
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  text-align: start;
+  width: 60%;
+  padding: 1rem 5rem ;
+  color: rgb(255, 255, 255);
+}
+
+.flags {
+  font-size: x-large;
+}
+
+.logos {
+  text-align: center;
+  width: 40%;
+}

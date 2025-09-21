@@ -1,0 +1,32 @@
+.button {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease; */
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.primary {
+  background-color: #2f39cb; /* Green */
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: #2f39cb; /* Green */
+  }
+}
+
+.secondary {
+  color: #2f39cb;
+  border: 1px solid #2f39cb;
+}
+
+.delete {
+  color: #f44336;
+  border: 1px solid #f44336;
+}

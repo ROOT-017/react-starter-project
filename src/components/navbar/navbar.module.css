@@ -1,0 +1,27 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  /* background-color: #333; */
+  color: rgba(61, 60, 60, 0.792);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+
+}
+
+.nav-items{
+  width: 50%;
+  display: flex;
+  /* color: black;  */
+  cursor: pointer;
+  gap: 2em;
+  justify-content: space-between;
+}
+.nav-items{
+  width: fit-content;
+  padding: 12px 32px;
+}
+.logo{
+  font-weight: bold;
+}
